@@ -1,0 +1,36 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1944725753
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Breakpoints]
+Bp0=_ "STD_CODE" "{C:\Windows\system32}.109.4" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\Source\aicoDevice.c}.72.13" 0 0 0 0 "" 0 ""
+Count=2
+[ChipconEmu]
+Stop timers on halt=0
+Leave target running=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "D:\ble_workspace\BLE-CC254x-1.4.0\Components\hal\target\CC2541DB\hal_startup.c" ""
+A1=_ "D:\ble_workspace\BLE-CC254x-1.4.0\Components\osal\common\OSAL_PwrMgr.c" ""
+A2=_ "D:\ble_workspace\BLE-CC254x-1.4.0\Projects\ble\aicoDevice\Source\aicoDevice_Main.c" ""
+Count=3
+SuppressDialog=1
