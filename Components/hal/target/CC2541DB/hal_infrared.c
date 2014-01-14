@@ -137,7 +137,7 @@ bool HalINFRead(uint8 addr, uint8 *pBuf, uint8 nBytes) {
 	bool success;
 	HalINFTurnOn();
 	// Read the sensor registers
-	success = HalSensorReadReg(addr, pBuf, 1);
+	success = HalSensorReadReg(addr, pBuf, nBytes);
 	if (success) {
 	}
 	return success;

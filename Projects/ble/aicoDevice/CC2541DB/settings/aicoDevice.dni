@@ -9,14 +9,14 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=1944725753
+Checksum=13224052
 [CallStack]
 ShowArgs=0
 [Disassembly]
 MixedMode=1
 [Breakpoints]
 Bp0=_ "STD_CODE" "{C:\Windows\system32}.109.4" 0 0 0 0 "" 0 ""
-Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\Source\aicoDevice.c}.72.13" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\Source\aicoDevice.c}.72.22" 0 0 0 0 "" 0 ""
 Count=2
 [ChipconEmu]
 Stop timers on halt=0

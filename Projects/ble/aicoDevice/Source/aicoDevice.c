@@ -44,9 +44,11 @@ void SimpleBLEPeripheral_Init(uint8 task_id) {
 
 	HalLcdWriteStringValue("HalINFWrite: ", success, 16, HAL_LCD_LINE_2);
 
-	uint8 k = 0;
-	HalINFRead(0x03, &k, 1);
-	HalLcdWriteStringValue("HalINFRead: ", k, 16, HAL_LCD_LINE_3);
+	uint8 k[5] = {0};
+	HalINFRead(0x03, k, 5);
+	HalLcdWriteStringValue("HalINFRead: ", k[0], 16, HAL_LCD_LINE_3);
+	HalLcdWriteStringValue("HalINFRead: ", k[3], 16, HAL_LCD_LINE_4);
+	HalLcdWriteStringValue("HalINFRead: ", k[4], 16, HAL_LCD_LINE_5);
 }
 
 uint16 SimpleBLEPeripheral_ProcessEvent(uint8 task_id, uint16 events) {
